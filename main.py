@@ -1,20 +1,7 @@
-# #!/usr/bin/env python
-# from images2gif import writeGif
-# from PIL import Image
-# import os
-
-# file_names = ['cat1.jpg', 'cat2.jpg', 'cat3.jpg', 'cat4.jpg', 'cat5.png']
-
-# images = [Image.open(fn) for fn in file_names]
-
-# size = (600,350)
-# for im in images:
-#     im.thumbnail(size, Image.ANTIALIAS)
-
-# filename = "cat.gif"
-# writeGif(filename, images, duration=0.5, subRectangles=False)
-#-*- coding: UTF-8 -*-    
-  
+'''
+Author: Angus cai
+Date: 2018-3-27
+'''
 import imageio  
   
 def create_gif(image_list, gif_name):  
